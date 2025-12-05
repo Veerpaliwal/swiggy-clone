@@ -2,10 +2,10 @@ import React, { useState } from 'react'
 import { RxCaretDown } from "react-icons/rx";
 import { IoIosSearch } from "react-icons/io";
 import { RiDiscountPercentFill } from "react-icons/ri";
-import { IoCart } from "react-icons/io5";
-import { MdFollowTheSigns } from "react-icons/md";
 import { IoMdHelpCircle } from "react-icons/io";
+import { IoCart } from "react-icons/io5";
 
+import { IoPerson } from "react-icons/io5";
 export default function Header() {
 
 
@@ -33,7 +33,7 @@ export default function Header() {
                 ></div>
             </div>   
          <header className='p-[15px] shadow-xl text-[#686B78]'>
-                <div className='max-w-[1200px] mx-auto border border-red-500 flex items-center'>
+                <div className='max-w-[1200px] mx-auto  flex items-center'>
                     <div className='w-[100px] '>
                         <img src='images/swiggy.png' className='w-full' alt='' />
                     </div>
@@ -48,8 +48,8 @@ export default function Header() {
                             <IoIosSearch/>
                            Search
                         </li>
-                        <li className='flex items-center gap-1 hover:text-[#fc8015]'>
-                            <RiDiscountPercentFill/>
+                        <li className='flex items-center gap-1 hover:text-[#fc8015] '>
+                            <RiDiscountPercentFill />                            
                             Offers
                         </li>
                         <li className='flex items-center gap-1 hover:text-[#fc8015]'>
@@ -57,7 +57,7 @@ export default function Header() {
                             Help
                         </li>
                         <li className='flex items-center gap-1 hover:text-[#fc8015]'>
-                            <MdFollowTheSigns />
+                            <IoPerson/>
                             Sign-In
                         </li>
                         <li className='flex items-center gap-1 hover:text-[#fc8015]'>
