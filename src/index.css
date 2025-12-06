@@ -17,3 +17,12 @@ code {
 .black-overlay{
   background-color: rgba(0, 0, 0, 0.7);
 }
+
+/* index.css mein daal do */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
