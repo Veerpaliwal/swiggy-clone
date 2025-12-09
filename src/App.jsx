@@ -1,7 +1,7 @@
 // import area
 import Header from "./components/Header";
 import Foods from "./components/Foods";
-
+import TopRest from "./components/TopRest";
 
 // function definaction area
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <>
       <Header />
       <Foods />
-     
+      <TopRest/>
       
     </>
   );
