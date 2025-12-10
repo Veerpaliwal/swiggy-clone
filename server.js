@@ -3,7 +3,6 @@ const http = require("http");
 const foods = [
   { id: 1, name: "Burger",      price: 129, image: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Burger.png",     path: "burger" },
   { id: 2, name: "Pizza",       price: 249, image: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Pizza.png",      path: "pizza" },
-  { id: 3, name: "Fries",       price: 79,  image: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Fries.png",      path: "fries" },
   { id: 4, name: "Sandwich",    price: 99,  image: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Sandwich.png",   path: "sandwich" },
   { id: 5, name: "Pasta",       price: 159, image: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Pasta.png",      path: "pasta" },
   { id: 6, name: "Noodles",     price: 149, image: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/PC_Mweb/Noodles.png",    path: "noodles" },
